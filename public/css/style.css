@@ -158,7 +158,7 @@ footer {
   height: 400px;
   padding: 50px 0;
   color: #FFFFFF;
-  background: url("/images/logo-footer.png"), url("/images/footer-bg.jpg");
+  background: url("/images/logo-footer.png"), url("/images/footer-bg.jpeg");
   background-size: auto 140%, cover;
   background-position: 80% center, center;
   background-repeat: no-repeat;

@@ -1,7 +1,7 @@
 @extends('layouts.main');
 
 @section('content')
-<section class="hero" style="background-image: url('{{ asset('images/bg-hero-home.jpg') }}')">
+<section class="hero" style="background-image: url('{{ asset('images/bg-hero-home.jpeg') }}')">
 
 </section>
 

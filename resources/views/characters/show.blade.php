@@ -14,7 +14,7 @@
             <section class="mt-4">
                 <h2 class="color-blue">Related Comics</h2>
                 @foreach ($character->comics as $comic)
-                    <a href="{{ route('comics.show', $comic->slug) }}" class="pr-3 pb-3 d-inline-block">
+                    <a href="{{ route('comics.show', $comic->id) }}" class="pr-3 pb-3 d-inline-block">
                         <img src="{{ asset('storage/' . $comic->image_cover) }}" alt="{{ $comic->title }}">
                     </a>
                 @endforeach
